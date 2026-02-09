@@ -1,0 +1,17 @@
+
+CREATE TABLE `todo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `description` text DEFAULT NULL,
+  `completed` tinyint(1) DEFAULT 0,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci ;
+
+INSERT INTO todo (title, description, completed) VALUES 
+('과제1', 'Next.js 프로젝트 빌드하기', FALSE),
+('과제2', 'Nginx 설정하기', FALSE),
+('과제3', 'MariaDB 연결 테스트', TRUE);
+
+
