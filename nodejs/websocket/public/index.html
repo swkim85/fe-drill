@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSocket 채팅</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <main class="app">
+        <h1>WebSocket 채팅</h1>
+
+        <section class="controls">
+            <input id="name" type="text" maxlength="20" placeholder="닉네임" />
+        </section>
+
+        <section id="messages" class="messages" aria-live="polite"></section>
+
+        <form id="chat-form" class="chat-form">
+            <input id="message" type="text" maxlength="300" placeholder="메시지를 입력하세요" required />
+            <button type="submit">전송</button>
+        </form>
+    </main>
+
+    <script src="/client.js"></script>
+</body>
+
+</html>

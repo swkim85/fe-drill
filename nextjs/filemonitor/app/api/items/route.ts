@@ -8,7 +8,10 @@ export async function GET() {
   try {
     const data = await fs.readFile(filePath, 'utf-8');
     const lines = data.split('\n').filter(Boolean);
-    return NextResponse.json({ items: lines });
+    const response = { items: lines };
+    console.log('response body:', response);
+    return NextResponse.json(response);
+
   } catch (e) {
     return NextResponse.json({ error: 'Unable to read items file.' }, { status: 500 });
   }
