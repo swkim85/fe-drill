@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "김민준",
+        "department": "인사팀",
+        "email": "minjun.kim@company.com",
+        "phone": "010-1234-5678"
+    },
+    {
+        "id": 2,
+        "name": "이서연",
+        "department": "개발팀",
+        "email": "seoyeon.lee@company.com",
+        "phone": "010-2345-6789"
+    },
+    {
+        "id": 3,
+        "name": "박지호",
+        "department": "영업팀",
+        "email": "jiho.park@company.com",
+        "phone": "010-3456-7890"
+    },
+    {
+        "id": 4,
+        "name": "최수아",
+        "department": "마케팅팀",
+        "email": "sua.choi@company.com",
+        "phone": "010-4567-8901"
+    },
+    {
+        "id": 5,
+        "name": "정도윤",
+        "department": "기획팀",
+        "email": "doyun.jung@company.com",
+        "phone": "010-5678-9012"
+    },
+    {
+        "id": 6,
+        "name": "강하은",
+        "department": "회계팀",
+        "email": "haeun.kang@company.com",
+        "phone": "010-6789-0123"
+    },
+    {
+        "id": 7,
+        "name": "윤시우",
+        "department": "법무팀",
+        "email": "siwoo.yoon@company.com",
+        "phone": "010-7890-1234"
+    },
+    {
+        "id": 8,
+        "name": "임나은",
+        "department": "개발팀",
+        "email": "naeun.lim@company.com",
+        "phone": "010-8901-2345"
+    },
+    {
+        "id": 9,
+        "name": "한준서",
+        "department": "인사팀",
+        "email": "junseo.han@company.com",
+        "phone": "010-9012-3456"
+    },
+    {
+        "id": 10,
+        "name": "오예진",
+        "department": "영업팀",
+        "email": "yejin.oh@company.com",
+        "phone": "010-0123-4567"
+    }
+]
